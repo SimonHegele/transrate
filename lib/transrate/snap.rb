@@ -133,6 +133,7 @@ module Transrate
           cmd << " -t#{threads}"
           cmd << " -bSpace" # contig name terminates with space char
           cmd << " -locationSize #{n}"
+          cmd << " -exact"
 
           runner = Cmd.new cmd
           runner.run
