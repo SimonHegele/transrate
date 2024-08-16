@@ -18,7 +18,7 @@ tar zcvf bam-read_v1.0.0.beta4_linux.tar.gz bam-read
 cp bam-read_v1.0.0.beta4_linux.tar.gz /vagrant/
 
 # snap
-git clone https://github.com/Blahah/snap.git
+git clone https://github.com/amplab/snap.git
 cd snap
 git fetch
 git checkout dev
