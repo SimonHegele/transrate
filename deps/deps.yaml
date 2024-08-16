@@ -2,12 +2,12 @@ snap:
   binaries:
     - snap-aligner
   version:
-    number: '1.0dev.96'
+    number: '2.0.3'
     command: 'snap-aligner'
   url:
     64bit:
-      linux: https://github.com/Blahah/snap/releases/download/1.0dev.96/snap_v1.0dev.96_linux.tar.gz
-      macosx: https://github.com/Blahah/snap/releases/download/1.0dev.96/snap_v1.0dev.96_osx.tar.gz
+      linux: https://github.com/amplab/snap/releases/download/v2.0.3/snap-aligner
+      macosx: https://github.com/amplab/snap/releases/download/v2.0.3/snap-aligner-osx
 bam-read:
   binaries:
    - bam-read
